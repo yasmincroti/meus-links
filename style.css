@@ -11,8 +11,7 @@
     --grey: #333333;
     --neon-green: #C4F82A;
     --white: #fff;
-    --dark-blue: #00008B;
-    --blue: #0000FF;
+
    }
    
    body{
@@ -75,3 +74,9 @@ p{
     line-height: 21px;
     color: var(--white);
  }
+
+ a:hover{
+    background-color: var(--dark-blue);
+    color: var(--white);
+    transition: 3s;
+}
