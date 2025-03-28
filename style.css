@@ -6,11 +6,11 @@
 }
 
 :root{
-    --black:#000000;
-    --dark-grey: #1F1F1F;
-    --grey: #333333;
-    --neon-green: #C4F82A;
-    --white: #fff;
+    --black:#a633f383;
+    --dark-grey: #8b2eaf5e;
+    --grey: #7924c99c;
+    --neon-green: #dea0f5;
+    --white: #ffffff;
 
    }
    
@@ -53,7 +53,7 @@ strong{
     margin-block: 24px;
     font-size: 14px;
     line-height: 150%;
-    color: var(--blue);
+    color: var(--pink);
 }
 
 p{
@@ -75,8 +75,10 @@ p{
     color: var(--white);
  }
 
- a:hover{
-    background-color: var(--dark-blue);
+
+
+a:hover{
+    background-color: var(--neon-green);
     color: var(--white);
-    transition: 3s;
+    transition: 4s;
 }
